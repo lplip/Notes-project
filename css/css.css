@@ -1,0 +1,78 @@
+﻿body {
+    background-image:url(../resources/img/background.jpg);
+}
+#inputDiv{
+    position:relative;
+    
+    left:25%;
+    height:500px;
+    width:500px;
+    padding:10px;
+    color:white;
+    font-variant:small-caps;
+    
+}
+#inputDiv p{
+     
+    font-size:18px;
+    color:orangered;
+}
+
+#inputDiv button{
+    cursor:pointer;
+    background-color:aquamarine;
+}
+textarea{
+    resize:none;
+    height:100px;
+    width:173px;
+}
+#notesDiv{
+    position:relative;
+}
+.noteBobyStyle{
+    position:relative;
+    background-color:aliceblue;
+    background-image:url(../resources/img/note.png);
+    background-repeat:no-repeat;
+    background-color: transparent;
+    background-size: 100% 100%;
+    float:left;
+    margin:20px;
+    border:1px;
+    padding:15px;
+    width:200px;
+    height:200px;
+}
+.indexP{
+    position:absolute;
+    display:none;
+}
+
+.deleteNote{
+    position:absolute;
+    display:none;
+    background-image:url(../resources/img/noteDeleteButton.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    height:25px;
+    width:25px;
+    right:0;
+    top:0;
+    cursor:pointer;
+}
+.noteBobyStyle:hover .deleteNote{
+    display:block;
+}
+
+
+h3{
+    position:relative;
+    bottom:10px;
+}
+.noteBobyStyle p{
+    word-wrap: break-word;
+}
+

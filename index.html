@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>MyNote</title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/css.css"> 
+</head>
+<body>
+
+
+    <div id="inputDiv">
+        <h1>My Task Board</h1>
+        
+        <input type="text" placeholder="Title" id="titleInput" autofocus>
+        <p id="titleValidation"></p>
+
+        <input type="text" placeholder="When" id="dateInput"/>
+        <p id="dateValidation"></p><br/>
+
+        <label>Description.. </label><br />
+        <textarea id="textInput" maxlength="100" ></textarea><br />
+        <p id="descValidation"></p>
+
+        <button id="saveB">ADD</button>
+
+        <p>you have <span id="numderOfNotes">0</span> notes</p>
+
+        <p id="indexP"></p>
+    </div>
+
+
+    <div id="notesDiv">
+        <p></p>           
+    </div>
+
+
+    <script src="js/js.js"></script>
+    <script src="js/data.js"></script>
+</body>
+</html>
